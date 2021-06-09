@@ -1,7 +1,46 @@
+/*Sections*/
+
 @import "./header.css";
+@import "./hero.css";
+@import "./about.css";
+@import "./projects.css";
 
+/*Sections*/
 
-*{
+/*Components*/
+
+@import "./Components/wrapper.css";
+@import "./Components/tittle.css";
+
+/*Components*/
+
+/*Fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+/*Fonts*/
+
+:root {
+  --secondary-color: #ff6464;
+  --button-color: #ff6464;
+  --family-second: "Poppins", sans-serif;
+  font-family: "Heebo", sans-serif;
+}
+
+* {
   margin: 0;
   padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*.container {*/
+/*width: 90vw;*/
+/*margin: 0 auto;*/
+/*}*/
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }

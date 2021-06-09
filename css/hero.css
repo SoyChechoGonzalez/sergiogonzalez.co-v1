@@ -1,0 +1,96 @@
+main {
+  position: relative;
+
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 150px;*/
+}
+.hero__imagen {
+  max-width: 100%;
+  height: 50%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*position: relative;*/
+  /*top: 100px;*/
+}
+.hero__img {
+  min-width: 300px;
+  height: 450px;
+  border-radius: 50%;
+}
+.hero__texto {
+  max-width: 100%;
+  height: 50%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+.hero__texto h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 64px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.hero__texto h1 span {
+  color: var(--secondary-color);
+  font-size: 44px;
+}
+.hero__texto p {
+  font-family: "Heebo", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero__texto button {
+  padding: 13px 23px;
+  background: var(--button-color);
+  border: none;
+  border-radius: 2px;
+}
+.hero__texto .btn__cv a,
+.btn__github a {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.hero__texto .btn__github {
+  background: none;
+  border: 1px solid var(--secondary-color);
+}
+.btn__github a {
+  color: var(--secondary-color);
+}
+@media screen and (min-width: 64rem) {
+  .hero {
+    flex-direction: row;
+  }
+  .hero__imagen {
+    width: 40%;
+    /* min-block-size: 100vh; */
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .hero__img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  .hero__texto {
+    width: 60%;
+    height: 100vh;
+  }
+}

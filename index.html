@@ -4,27 +4,83 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barra de Navegación Mobile First</title>
+    <title>Sergio González Sánchez</title>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html" class="logo"
-        ><img src="./assets/icons/nike.svg" alt=""
-      /></a>
-      <nav id="menu">
-        <ul>
-          <li><a href="" class="active">!Nuevo¡</a></li>
-          <li><a href="">Hombre</a></li>
-          <li><a href="">Mujer</a></li>
-          <li><a href="">Niñas/os</a></li>
-          <li><a href="">Personalizado</a></li>
-        </ul>
-      </nav>
-      <button class="menu-toggle">
-        <i class="fas fa-bars"></i>
-      </button>
-    </header>
+    <div class="wrapper">
+      <header>
+        <a href="index.html" class="logo"
+          ><img src="./assets/icons/logo.svg" alt=""
+        /></a>
+        <nav id="menu">
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </header>
+      <main>
+        <section class="hero" id="hero">
+          <article class="hero__imagen">
+            <img
+              src="./assets/img/profile.jpg"
+              class="hero__img"
+              alt=""
+              width="100px"
+            />
+          </article>
+          <article class="hero__texto">
+            <h1>Sergio González. <br /><span>Frontend Developer</span></h1>
+            <div>
+              <button class="btn__cv">
+                <a
+                  href="./assets/cv/CV_Sergio_González.pdf"
+                  download="CVSergioGonzalez.pdf"
+                  >descargar cv</a
+                >
+              </button>
+              <button class="btn__github">
+                <a href="https://github.com/SoyChechoGonzalez" target="_blank"
+                  >GitHub</a
+                >
+              </button>
+            </div>
+          </article>
+        </section>
+        <section class="about" id="about">
+          <article class="about__text">
+            <h1 class="tittle">Sobre Mí</h1>
+            <p>
+              Estudiante de ingeniería en sistemas y autodidacta con experiencia
+              como desarrollador web con proyectos personales y como profesor en
+              una institución llamada Cetasdi en Rionegro Antioquia. Tengo
+              habilidades para enseñar y adaptarme rápidamente a nuevos
+              entornos, me motiva mucho aprender, enseñar y trabajar con Inteligencia
+              Artificial.
+            </p>
+          </article>
+        </section>
+        <section class="projects" id="projects">
+          <h1 class="tittle">Proyectos</h1>
+          <div class="projects_img">
+            <!--            <div class="item">-->
+            <!--<div class="sub-item imagen"></div>-->
+            <!--<div class="sub-item imagen"></div>-->
+            <!--<div class="sub-item imagen"></div>-->
+            <!--<div class="sub-item imagen"></div>-->
+            <!--<div class="sub-item imagen"></div>-->
+            <!--<div class="sub-item imagen"></div>-->
+            <!--</div>-->
+          </div>
+        </section>
+      </main>
+    </div>
     <script src="./js/script.js"></script>
     <script
       src="https://kit.fontawesome.com/0b3eb0d831.js"
