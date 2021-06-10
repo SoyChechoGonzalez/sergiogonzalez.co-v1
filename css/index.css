@@ -11,6 +11,8 @@
 
 @import "./Components/wrapper.css";
 @import "./Components/tittle.css";
+@import "./Components/button.css";
+@import "./Components/particles.css";
 
 /*Components*/
 
@@ -26,6 +28,10 @@
   --button-color: #ff6464;
   --family-second: "Poppins", sans-serif;
   font-family: "Heebo", sans-serif;
+  --bg-body: rgb(22, 33, 54);
+  --bg-header: var(--bg-body);
+  color: #fff;
+  --white: #fff;
 }
 
 * {
@@ -35,12 +41,15 @@
 html {
   scroll-behavior: smooth;
 }
-/*.container {*/
-/*width: 90vw;*/
-/*margin: 0 auto;*/
-/*}*/
+body {
+  background-color: var(--bg-body);
+  position: relative;
+}
 main {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+a{
+  text-decoration: none;
 }

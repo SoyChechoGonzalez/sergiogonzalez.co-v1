@@ -52,26 +52,26 @@ main {
   font-size: 20px;
   font-weight: 400;
 }
-.hero__texto button {
-  padding: 13px 23px;
-  background: var(--button-color);
-  border: none;
-  border-radius: 2px;
-}
-.hero__texto .btn__cv a,
-.btn__github a {
-  font-size: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.hero__texto .btn__github {
-  background: none;
-  border: 1px solid var(--secondary-color);
-}
-.btn__github a {
-  color: var(--secondary-color);
-}
+/*.hero__texto button {*/
+  /*padding: 13px 23px;*/
+  /*background: var(--button-color);*/
+  /*border: none;*/
+  /*border-radius: 2px;*/
+/*}*/
+/*.hero__texto .btn__cv a,*/
+/*.btn__github a {*/
+  /*font-size: 20px;*/
+  /*color: #fff;*/
+  /*text-transform: uppercase;*/
+  /*text-decoration: none;*/
+/*}*/
+/*.hero__texto .btn__github {*/
+  /*background: none;*/
+  /*border: 1px solid var(--secondary-color);*/
+/*}*/
+/*.btn__github a {*/
+  /*color: var(--secondary-color);*/
+/*}*/
 @media screen and (min-width: 64rem) {
   .hero {
     flex-direction: row;
